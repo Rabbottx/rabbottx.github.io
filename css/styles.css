@@ -1,0 +1,21 @@
+@keyframes craziness {
+	0% {color: black; font-size: 100%; transform: rotateZ(15deg);}
+	25% {color: yellow; font-size: 200%; transform: rotateZ(-15deg);}
+	50% {color: black; font-size: 300%; transform: rotateZ(15deg);}
+	75% {color: yellow; font-size: 200%; transform: rotateZ(-15deg);}
+	100% {color: black; font-size: 100%; transform: rotateZ(15deg);}
+}
+
+h1 {
+	text-align: center;
+	margin-top: 250px;
+	animation-name: craziness;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	text-shadow: 0 10px 15px rgba(0,0,0,0.7);
+	font-family: 'Press Start 2P', cursive;
+}
+
+body {
+	background: dimgray;
+}
